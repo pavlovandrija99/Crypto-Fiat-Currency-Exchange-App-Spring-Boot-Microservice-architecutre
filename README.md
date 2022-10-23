@@ -34,7 +34,7 @@
                     - Currency exchange request, QQQ stands for amount of XXX currency, that exchanges into YYY currency. UUU stands for email of the user that is  sending request.
                    
                    2. localhost:8765/crypto-conversion/from/XXX/to/YYY/quantity/QQQ/user/UUU
-                    - Crypto currency exhcangge request, QQQ stands for amount of XXX crypro currency, that exchanges into YYY crypto currency. UUU stands for the     email of the user that is sending request.
+                    - Crypto currency exhcangge request, QQQ stands for amount of XXX crypro currency, that exchanges into YYY crypto currency. UUU stands for the email of the user that is sending request.
                   
  * Feign Client (from Spring Cloud) is used for simplifying and making effective communication between microservices.
  * All microservices are connected to ZIPKIN tracing server, which tracks HTTP request thah are sent to any of microservices, and provides useable information about      request state/result. 
