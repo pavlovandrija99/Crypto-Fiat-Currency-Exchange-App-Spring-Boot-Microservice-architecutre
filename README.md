@@ -38,5 +38,5 @@
                     - Crypto currency exhcangge request, QQQ stands for amount of XXX crypro currency, that exchanges into YYY crypto currency. UUU stands for the email of the user that is sending request.
                   
  * Feign Client (from Spring Cloud) is used for simplifying and making effective communication between microservices.
- * All microservices are connected to ZIPKIN tracing server, which tracks HTTP request thah are sent to any of microservices, and provides useable information about      request state/result. 
+ * All microservices are connected to ZIPKIN tracing server, which tracks HTTP request thah are sent to any of microservices, and provides useable information about      request state/result. ZIPKIN tracing server is running on port 9411 by default.
  * Every microservice is dockerized using Docker (docker-compose.yaml file).          
