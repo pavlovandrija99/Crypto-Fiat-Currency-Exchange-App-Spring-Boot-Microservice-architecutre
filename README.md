@@ -1,4 +1,4 @@
-# Crypto-Fiat-Currency-Exchange-App-Spring-Boot-Microservice-architecutre
+## Crypto-Fiat-Currency-Exchange-App-Spring-Boot-Microservice-architecutre
 
 * Tecnhologies used for this project:
   - Spring Tool Suite
