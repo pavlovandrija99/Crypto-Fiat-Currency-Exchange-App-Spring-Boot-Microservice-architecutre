@@ -27,11 +27,12 @@
                          of the currency that is requested to be exchanged, and checks if user that is sending a request, has the necessary currency amount                                      on his crypto wallet account. If that's the case, exchange of the assets is beginning. Crypto conversion microservice iz                                                communicating with crypto wallet microservice, as well as crypto exchange microservice. 
                            
   8. API Gateway - Microservice, entry point of the application. All users request are directed to this microservice. API Gateway iz running on port 8765. 
+ 
                    
                    Examples of users request to the API Gateway: 
                    
                    1. localhost:8765/currency-conversion/from/XXX/to/YYY/quantity/QQQ/user/UUU
-                    - Currency exchange request, QQQ stands for amount of XXX currency, that exchanges into YYY currency. UUU stands for email of the user that is  sending request.
+                    - Currency exchange request, QQQ stands for amount of XXX currency, that exchanges into YYY currency. UUU stands for email of the user that is sending request.
                    
                    2. localhost:8765/crypto-conversion/from/XXX/to/YYY/quantity/QQQ/user/UUU
                     - Crypto currency exhcangge request, QQQ stands for amount of XXX crypro currency, that exchanges into YYY crypto currency. UUU stands for the email of the user that is sending request.
